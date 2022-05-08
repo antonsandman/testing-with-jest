@@ -9,7 +9,7 @@ exports.push = function (x) {
 
 // Returnerar det översta elementet i stacken och tar bort det
 exports.pop = function () {
-    return stack.pop();
+    return stack.popp(); // Medvetet fel: "snabba fingrar på tröga tangenter"
 };
 
 // Returnerar det översta elementet i stacken
