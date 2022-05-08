@@ -36,5 +36,5 @@ describe('Clicking "Pusha till stacken"', () => {
 // Nytt testfall
 test('The background color of the stack should be white', async () => {
 	let backgroundColor = await driver.findElement(By.id('top_of_stack')).getCssValue('background-color');
-	expect(backgroundColor).toEqual('rgba(0, 0, 0, )'); // Missade en 0:a
+	expect(backgroundColor).toEqual('rgba(0, 0, 0, 0)');
 });
